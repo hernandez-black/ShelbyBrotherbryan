@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 2rem;
+    border-radius: 2rem;
+}
+.imagen{
+    width: 350px;
+    height: 500px;
+    float: left;
+    padding-right: 6rem;
+}
+.header__titulo {
+    font-size: 44px;
+    font-weight: 900;
+    color: rgb(0, 5, 149);
+    padding-top: 6rem;
+}
+
+.header__parrafo {
+    font-size: 24px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-right: 200px;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+  
+    .info-item {
+        max-width: 100%;
+    }
+  }@media (max-width: 768px) {
+    .ambiente-section {
+        grid-template-columns: 1fr;
+    }
+  
+    .features {
+        grid-template-columns: 1fr;
+    }
+  }
+
+
+.footer__titulo2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0, 5, 149);
+    justify-content: space-around;
+}
+
+.footer__parrafo2 {
+    font-size: 14px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.footer__titulo3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0, 5, 149);
+    justify-content: space-around;
+}
+
+.footer__parrafo3 {
+    font-size: 14px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.footer__titulo4 {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0, 5, 149);
+}
+
+.footer__parrafo4 {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+
+.titulotabla {
+    font-size: 58px;
+    color: #403CCF;
+    height: 100px;
+    padding-left: 2rem;
+}
+
+.subtitles {
+    font-size: 24px;
+    color: #403CCF;
+    height: 50px;
+    font-weight: 1000;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    font-size: 32px;
+}
+
+.textotabla {
+    color: black;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    font-size: 20px;
+}
+
+.tabla2_text{
+    color: black;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    font-size: 20px;
+}
+
+table {
+    text-align: left;
+    width: 1200px;
+}
+
+
+.puntorelleno {
+    color:white;
+}
+
+.tablita {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
